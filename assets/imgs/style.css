@@ -1,13 +1,16 @@
-body {
+main {
     padding-top: 0;
-    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
   
 }
+
+
 h1 {
     font-family: sans-serif ;
     font-weight: 900;
     color: #742406 ;
-    font-size: 3em;
+    font-size: 2.3em;
     padding: 40px 10px;
     
 }
@@ -17,6 +20,7 @@ h2 {
     color: #742406 ;
     font-size: 2em;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 h3 {
@@ -58,7 +62,7 @@ ul {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 100%;
+    width: 95%;
   
     
 }
@@ -156,6 +160,7 @@ ul {
     background-color: #FEF7E2;
     border-radius: 20px;
     padding: 20px;
+    
 }
 
 #news {
@@ -166,6 +171,9 @@ ul {
 
 #news p {
     margin-bottom: 20px;
+    color: #742406;
+    line-height: 20px;
+
 }
 
 #news img {
