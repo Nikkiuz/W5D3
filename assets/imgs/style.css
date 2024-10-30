@@ -1,8 +1,16 @@
+body {
+    padding-top: 0;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 h1 {
     font-family: sans-serif ;
     font-weight: 900;
     color: #742406 ;
     font-size: 3em;
+    padding: 40px 10px;
+    
 }
 h2 {
     font-family: sans-serif ;
@@ -60,13 +68,12 @@ ul {
     align-items: center;
     padding: 15px 15px;
     margin: auto;
-    flex-wrap: nowrap;
+    
     
 }
 #mainButton {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     border-radius: 40px;
     border: none;
@@ -80,10 +87,32 @@ ul {
 
 #mainButton img{
     width: 60px;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 #mainButton p {
     font-size: 1.8em;
 }
 
+#cardSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #F3DF85;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 500px;
+}
+
+
+
+.artPic img {
+    border-radius: 40px 40px 0px 0px;
+    margin-bottom: 20px;
+    width: 500px;
+}
