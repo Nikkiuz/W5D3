@@ -1,7 +1,6 @@
 main {
     padding-left: 10px;
     padding-right: 10px;
-  
 }
 
 h1 {
@@ -69,8 +68,7 @@ ul {
 #mobilebuttons{
     display: flex;
     flex-direction: row;
-    text-align: center;
-       
+    text-align: center;  
 }
 
 #firstpart li {
@@ -87,7 +85,6 @@ ul {
 
 #mobilemainb {
     text-align: center;
-
 }
 
 .buttons {
@@ -258,5 +255,6 @@ ul {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
 
 }
