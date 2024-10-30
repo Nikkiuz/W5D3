@@ -54,6 +54,7 @@ p {
 ul {
     background-color: #FBF7E3;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     border-radius: 40px;
     list-style-type: none;
@@ -62,7 +63,31 @@ ul {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 100%;  
+     
+}
+
+#mobilebuttons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+       
+}
+
+#firstpart li {
+    text-align: center;
+    white-space: nowrap;
+    margin: 10px 5px;
+    padding: 10px 10px;
+}
+
+#secondpart li {
+    margin: 10px 5px;
+    padding: 10px 20px;
+}
+
+#mobilemainb {
+    text-align: center;
+
 }
 
 .buttons {
@@ -172,6 +197,8 @@ ul {
     ul {
         display: flex;
         justify-content: space-around;
+        width: 100%; 
+        flex-direction: row;
         /* position: fixed; */
     }
 
@@ -181,6 +208,7 @@ ul {
         color: #742406 ;
         font-size: 2.3em;
         padding: 40px 10px;
+        text-align: left;
     }
 
     #cardSection {
@@ -197,6 +225,38 @@ ul {
         font-size: 2em;
         margin-bottom: 10px;
         padding-left: 10px;
+        text-align: left;
+    }
+
+    #mobilebuttons{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+           
     }
     
+    #firstpart {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    #secondpart {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    #mobilemainb {
+        text-align: center;
+        flex-direction: row;
+    
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    #cardSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
 }
