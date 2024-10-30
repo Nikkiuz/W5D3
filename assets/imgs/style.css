@@ -1,8 +1,7 @@
 body {
     padding-top: 0;
     padding-bottom: 40px;
-    padding-right: 10px;
-    padding-left: 10px;
+  
 }
 h1 {
     font-family: sans-serif ;
@@ -17,6 +16,7 @@ h2 {
     font-weight: 800;
     color: #742406 ;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -24,6 +24,8 @@ h3 {
     font-weight: 800;
     color: #742406 ;
     font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -52,7 +54,12 @@ ul {
     border-radius: 40px;
     list-style-type: none;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  
     
 }
 
@@ -60,7 +67,7 @@ ul {
     text-align: center;
     font-family: sans-serif ;
     color: #612406;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
     background-color: #F3DF85;
     border-radius: 40px;
@@ -81,6 +88,7 @@ ul {
     font-weight: 600;
     margin: auto;
     padding: 20px 20px;
+    
   
     
 }
@@ -91,7 +99,7 @@ ul {
 }
 
 #mainButton p {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 #cardSection {
@@ -102,11 +110,11 @@ ul {
 }
 
 .card {
-    background-color: #F3DF85;
+    background-color: #FBF7E3;
     border-radius: 40px;
     margin-bottom: 40px;
     text-align: center;
-    width: 500px;
+    width: 250px;
 }
 
 
@@ -114,5 +122,52 @@ ul {
 .artPic img {
     border-radius: 40px 40px 0px 0px;
     margin-bottom: 20px;
-    width: 500px;
+    width: 250px;
+    
+}
+
+.allcardinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.info h4 {
+    margin-bottom: 5px;
+    
+}
+
+.buttonDiv button{
+    background-color: #F3DF85;
+    border-radius: 40px;
+    border: none;
+    font-family: sans-serif ;
+    color: #612406;
+    font-size: 0.8em;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+
+#newsSection{
+    background-color: #FEF7E2;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#news p {
+    margin-bottom: 20px;
+}
+
+#news img {
+    margin-bottom: 20px;
 }
