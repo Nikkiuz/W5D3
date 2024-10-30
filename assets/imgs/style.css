@@ -1,5 +1,4 @@
 main {
-    padding-top: 0;
     padding-left: 10px;
     padding-right: 10px;
   
@@ -11,6 +10,7 @@ h1 {
     color: #742406 ;
     font-size: 2.3em;
     padding: 40px 10px;
+    text-align: center;
 }
 
 h2 {
@@ -20,6 +20,7 @@ h2 {
     font-size: 2em;
     margin-bottom: 10px;
     padding-left: 10px;
+    text-align: center;
 }
 
 h3 {
@@ -61,7 +62,7 @@ ul {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 95%;   
+    width: 100%;  
 }
 
 .buttons {
@@ -102,8 +103,9 @@ ul {
 #cardSection {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -165,6 +167,36 @@ ul {
     margin-bottom: 20px;
 }
 
-@media screen {
+@media screen and (min-width: 576px){
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        /* position: fixed; */
+    }
+
+    h1 {
+        font-family: sans-serif ;
+        font-weight: 900;
+        color: #742406 ;
+        font-size: 2.3em;
+        padding: 40px 10px;
+    }
+
+    #cardSection {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    h2 {
+        font-family: sans-serif ;
+        font-weight: 800;
+        color: #742406 ;
+        font-size: 2em;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
     
 }
